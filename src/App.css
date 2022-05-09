@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+.backImage{
+  height: 1000px;
+  background-image: url(../public/static/pexels-mudassir-ali-2680270.jpg);
+}
+.routes{
+  margin: auto;
+  padding: 100px;
+}

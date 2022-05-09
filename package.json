@@ -1,27 +1,32 @@
 {
-  "name": "@fathym-it/public-web-react",
-  "version": "0.0.4",
-  "private": false,
-  "homepage": ".",
+  "name": "empl-system",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.1",
-    "@testing-library/react": "^12.1.2",
+    "@hookform/resolvers": "^2.8.8",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.4.0",
-    "@types/node": "^16.11.21",
-    "@types/react": "^17.0.38",
-    "@types/react-dom": "^17.0.11",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0",
-    "typescript": "^4.5.5",
-    "web-vitals": "^2.1.4"
+    "axios": "^0.26.1",
+    "bootstrap": "^5.1.3",
+    "prop-types": "^15.8.1",
+    "react": "^18.0.0",
+    "react-confirm-alert": "^2.8.0",
+    "react-dom": "^18.0.0",
+    "react-redux": "^8.0.1",
+    "react-router": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^9.0.1",
+    "react-yup": "^1.23.0",
+    "reactstrap": "^9.0.2",
+    "redux": "^4.2.0",
+    "redux-saga": "^1.1.3",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "npm version patch && npm run deploy:app",
-    "deploy:app": "npm version patch --prefix public && npm run build && npm publish ./build --access public",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -42,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-router-dom": "^6.3.0"
   }
 }
